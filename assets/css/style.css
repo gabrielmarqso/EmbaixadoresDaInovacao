@@ -352,7 +352,6 @@ h6 {
   position: absolute;
   top: 15px;
   right: 15px;
- 
 }
 
 .navbar-mobile ul {
@@ -1143,7 +1142,7 @@ color: #F5F3FF;
   font-size: 48px;
   line-height: 55px;
   letter-spacing: -0.025em; 
-  width: 373px;
+ 
 }
 #resultados p{
   font-family: 'Montserrat';
@@ -1185,8 +1184,8 @@ color: #F5F3FF;
 }
 @media (max-width: 650px) {
   #resultados .dardo {
-    margin-top: -25rem;
-    margin-left: 7.5rem;
+    margin-top: -29rem;
+    margin-left: 6rem;
     position: absolute;
     
     
