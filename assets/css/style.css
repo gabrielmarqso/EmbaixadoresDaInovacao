@@ -436,7 +436,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/vectors/BackgroundQuadrado.png");
+  background: url("../img/vectors/BG-PRETO.jpg");
+  background-size: cover;
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -447,15 +448,13 @@ h6 {
 
 #hero .container-frases{
   display: flex;
-
 }
 #hero .botao-inscricao{
- margin-left: 10.8rem;
+ margin: 1rem 0 0 1rem;
 }
 #hero .frase {
-  height: 15rem;
-  margin-left: -3.6rem;
-  margin: 3rem 0 0 0 ;
+  height: 8.3rem;
+  margin: 7rem 0 0 -0.2rem ;
 }
 #hero .bolsas {
   height: 9rem;
@@ -502,7 +501,8 @@ h6 {
     font-weight: 600;
     font-size: 18px;
     display: inline-block;
-    padding: 10px 30px;
+    text-align: center;
+    padding: 10px 10px;
     transition: 0.5s;
     color: #571086;
     background: #1BD7B4;
@@ -559,13 +559,14 @@ h6 {
     width: 80%;
   }
   #hero .botao-inscricao{
-    margin: 0;
+    margin: 0 ;
   }
   #hero .container-frases{
     display: block;
   }
   #hero .frase{
-    height: 9rem;
+    height: 7rem;
+    margin-bottom: 1rem;
   }
   #hero .bolsas{
     height: 6rem;
@@ -1660,7 +1661,7 @@ color: #F5F3FF;
 
 #atribuicoes{
   width: 100%;
-  background: url("../img/vectors/imagem-fundo-atribuicoes.png") ;
+  background: url("../img/vectors/imagem-fundo-atribuicoes.jpg") ;
   background-size: cover;
   position: relative;
   padding: 100px 0 0 0;
